@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int numero = 10;
+		double numeroComVirgula = 10.78945;
+		System.out.print("Olá, mundo! ");
+		System.out.println("Bom dia!");
+		System.out.println(numero);
+		System.out.println(numeroComVirgula);
+		System.out.printf("%.2f ", numeroComVirgula);
+		System.out.printf("%.2f\n", numeroComVirgula);
+		
+	}
+
+}
