@@ -5,6 +5,16 @@ public class Product {
 	public double price;
 	public int quantity;
 	
+	// Usando sobrecarga.
+	
+	public Product() {
+	}
+	
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
 	
 	//Usando um construtor.
 	
