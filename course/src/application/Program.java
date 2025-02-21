@@ -41,7 +41,6 @@ public class Program {
 		System.out.println("Updated data: " + product);
 		
 		
-		
 		sc.close();
 
 	}
