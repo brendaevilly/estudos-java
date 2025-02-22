@@ -2,7 +2,7 @@ package entities;
 
 public class Account {
 	private int accountNumber;
-	public String accountHolder;
+	private String accountHolder;
 	private double accountBalance;
 	
 	public Account(int accountNumber, String accountHolder, double accountBalance) {
@@ -22,6 +22,14 @@ public class Account {
 		return accountNumber;
 	}
 
+	public String getAccountHolder() {
+		return accountHolder;
+	}
+
+	public void setAccountHolder(String accountHolder) {
+		this.accountHolder = accountHolder;
+	}
+
 	public double getAccountBalance() {
 		return accountBalance;
 	}
@@ -31,7 +39,7 @@ public class Account {
 	}
 	
 	public void withdrawValue(double accountBalance) {
-		this.accountBalance -= (accountBalance + 5);
+		this.accountBalance -= (accountBalance + 5.0);
 	}
 
 	public String toString() {
