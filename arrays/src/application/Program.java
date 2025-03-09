@@ -10,7 +10,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		int tam = sc.nextInt();
-		double[] array= new double[tam];
+		double[] array = new double[tam];
 		double soma = 0.0;
 		
 		for(int i=0; i<3; i++) {
