@@ -21,4 +21,5 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.OrderItem"/>
     <fullyQualifiedTypeName name="entities.OrderStatus"/>
+    <fullyQualifiedTypeName name="entities.BusinessAcount"/>
 </qualifiedTypeNameHistroy>
